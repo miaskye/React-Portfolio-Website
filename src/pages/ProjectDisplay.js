@@ -13,7 +13,7 @@ const ProjectDisplay = () => {
         <div className="project">
             <h1>{id}</h1>
             <h1>{project.name}</h1>
-            <img src={project.image} />
+            <img alt="hello world" src={project.image} />
             
             <GitHubIcon />
         </div>
